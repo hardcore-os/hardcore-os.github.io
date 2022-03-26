@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>所有标签 | hardcore&#39;s Blog</title>
+    <title>测试 | hardcore&#39;s Blog</title>
 
     
 
@@ -17,13 +17,13 @@
 
 <meta name="generator" content="Hugo 0.96.0" />
 
-<link rel="canonical" href="https://hardcore-os.github.io/tags/" />
+<link rel="canonical" href="https://hardcore-os.github.io/categories/%E6%B5%8B%E8%AF%95/" />
 
 
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="测试" />
 <meta property="og:description" content="hardcore 官网主页" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://hardcore-os.github.io/tags/" /><meta property="og:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/>
+<meta property="og:url" content="https://hardcore-os.github.io/categories/%E6%B5%8B%E8%AF%95/" /><meta property="og:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/>
 
 
 
@@ -31,7 +31,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/>
 
-<meta name="twitter:title" content="Tags"/>
+<meta name="twitter:title" content="测试"/>
 <meta name="twitter:description" content="hardcore 官网主页"/>
 
 
@@ -176,39 +176,48 @@
 </header>
 
 
+<div class="ui relaxed grid dream-grid">
+  
+  
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    <article class="ui attached segment card dream-card">
+  
+  <a class="image" href="https://hardcore-os.github.io/test/">
+    
+    <img src="/img/%e6%b5%8b%e8%af%95.jpeg" alt="Test" />
+    
+  </a>
+  
 
-
-<div class="ui container">
-  <article class="ui segment dream-tags-section">
-    <h2 class="ui header">所有标签<span class="ui grey sub header">2 标签</span>
+  
+  <div class="content">
+  
+    <h2 class="ui medium header">
+      <a href="/test/">Test</a>
     </h2>
+    <div class="meta">
+      <p class="date">
+        
+          <span data-format="luxon">2022-03-27T01:32:10&#43;08:00</span>
+        
+      </p>
+    </div>
+    <div class="description">
+      <p>硬核课堂 是一个 怎么样的企业??</p>
+    </div>
+  </div>
 
-    
-      
-        <h3 class="ui header">
-          <a href="/tags/%E6%B5%8B%E8%AF%951/">测试1</a>&nbsp;1篇文章</h3>
-        <ul>
-          
-          <li>
-            <a href="/test/">Test</a>
-          </li>
-          
-        </ul>
-      
-    
-      
-        <h3 class="ui header">
-          <a href="/tags/%E6%B5%8B%E8%AF%952/">测试2</a>&nbsp;1篇文章</h3>
-        <ul>
-          
-          <li>
-            <a href="/test/">Test</a>
-          </li>
-          
-        </ul>
-      
-    
-  </article>
+  <div class="extra content">
+    <div class="author"><img class="ui avatar image" src="/img/%e5%a4%b4%e5%83%8f.jpeg" alt="avatar" />Author Name</div>
+    <div class="reading-time">
+      <i class="clock icon"></i>1 分钟阅读</div>
+  </div>
+</article>
+
+  </div>
+  
+
+  
 </div>
 
 
@@ -404,7 +413,28 @@
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 
-     
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0" integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0=" crossorigin="anonymous"></script>
+<script>
+  format()
+
+  function format() {
+    $('span[data-format="luxon"]').each(function () {
+      var date = $(this).text()
+
+      $(this).text(luxon.DateTime.fromISO(date, { locale: "zh" }).toFormat("yyyy年MM月dd日"))
+    })
+  }
+</script>
+
+
+
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/grid.js"></script>
+
 
     
 
