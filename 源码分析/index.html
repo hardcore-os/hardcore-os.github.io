@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>所有分类 | hardcore&#39;s Blog</title>
+    <title>源码分析 | hardcore&#39;s Blog</title>
 
     
 
@@ -17,13 +17,16 @@
 
 <meta name="generator" content="Hugo 0.96.0" />
 
-<link rel="canonical" href="https://hardcore-os.github.io/categories/" />
+<link rel="canonical" href="https://hardcore-os.github.io/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/" />
 
 
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="hardcore 官网主页" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hardcore-os.github.io/categories/" /><meta property="og:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/>
+<meta property="og:title" content="源码分析" />
+<meta property="og:description" content="你能学到什么?
+源码分析会解读著名开源项目的核心源码,学习后能够参与开源项目建设或定制化开发基础组件，成为一名基础架构工程师。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hardcore-os.github.io/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/" /><meta property="og:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-03-27T01:32:10+08:00" />
+<meta property="article:modified_time" content="2022-03-27T01:32:10+08:00" />
 
 
 
@@ -31,8 +34,9 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/>
 
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="hardcore 官网主页"/>
+<meta name="twitter:title" content="源码分析"/>
+<meta name="twitter:description" content="你能学到什么?
+源码分析会解读著名开源项目的核心源码,学习后能够参与开源项目建设或定制化开发基础组件，成为一名基础架构工程师。"/>
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" integrity="sha256-UXesixbeLkB/UYxVTzuj/gg3+LMzgwAmg3zD+C4ZASQ=" crossorigin="anonymous">
@@ -82,7 +86,13 @@
 </style>
 
 
-     
+    
+
+
+
+
+
+
 
     
     <link rel="stylesheet" href="/css/custom.css" />
@@ -116,40 +126,84 @@
         <section class="front">
           <div class="dream-max-width">
             
-
-<header class="ui basic very padded segment dream-header">
+<div class="ui relaxed centered grid dream-grid dream-grid-single">
   
-  <div class="ui small circular image">
-    <img src="/img/%e5%a4%b4%e5%83%8f.jpeg" alt="avatar" />
-  </div>
+  
+  
   
 
-  <div class="content">
-    <h1 class="ui medium header">hardcore的官网<span class="sub header">还原卓越工程师的思考细节</span>
-    </h1>
+  
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    <section class="ui segment">
+      <header>
+        <h1 class="ui large header">源码分析<span class="sub header">
+            <span class="left">
+              @
+              
+                
+                  Author Name
+                
+              
 
-    <article class="ui horizontal list">
-      
-      <a class="item" href="/categories">
-        <i class="th list icon" title="所有分类"></i>
-      </a>
-      <a class="item" href="/tags">
-        <i class="tags icon" title="所有标签"></i>
-      </a>
-    </article>
+              | 
+                  <span data-format="luxon">2022-03-27T01:32:10&#43;08:00</span>
+                
+
+              | 1 分钟阅读
+
+              
+              | 更新于
+                
+                  <span data-format="luxon">2022-03-27T01:32:10&#43;08:00</span>
+                
+              
+            </span>
+
+            
+            <span class="dream-share">
+  <a href="#" class="save-as-image" title="保存为图片" onclick="savePostAsImg()">
+    <i class="save icon"></i>
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=%e6%ba%90%e7%a0%81%e5%88%86%e6%9e%90&url=https%3a%2f%2fhardcore-os.github.io%2f%25E6%25BA%2590%25E7%25A0%2581%25E5%2588%2586%25E6%259E%2590%2f" title="Twitter">
+    <i class="twitter icon"></i>
+  </a>
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fhardcore-os.github.io%2f%25E6%25BA%2590%25E7%25A0%2581%25E5%2588%2586%25E6%259E%2590%2f" title="Facebook">
+    <i class="facebook icon"></i>
+  </a>
+</span>
+
+            
+          </span>
+        </h1>
+      </header>
+
+      <article class="main">
+        
+        <img class="cover" src="/img/%e6%ba%90%e7%a0%81%e5%88%86%e6%9e%90.jpeg" />
+        
+
+        <h1 id="你能学到什么">你能学到什么?</h1>
+<p>源码分析会解读著名开源项目的核心源码,学习后能够参与开源项目建设或定制化开发基础组件，成为一名基础架构工程师。</p>
+<h1 id="redis-源码分析">Redis 源码分析</h1>
+<p>redis 是一个内存kv存储数据库，是当今后端最流行的基础组件没有之一。</p>
+<ol>
+<li><a href="https://www.bilibili.com/video/BV1PQ4y1k779">1-2节地址</a> ｜<a href="https://hardcore.feishu.cn/docs/doccnp9v7IljXiJ5FpNT1ipLhlR">讲稿</a></li>
+<li><a href="https://www.bilibili.com/video/BV1ff4y177xX">集合地址</a> ｜ <a href="https://hardcore.feishu.cn/mindnotes/bmncn1pO2ZhEyFkBgbQ2ttXncsc">讲稿</a></li>
+</ol>
+<h1 id="leveldb-源码分析">LevelDB 源码分析</h1>
+<p>leveldb 是磁盘kv存储引擎，是众多nosql数据库选择的存储引擎的起源。</p>
+<blockquote>
+<p><a href="bilibili.com/video/BV1cF411b7yL">集合</a> | <a href="https://hardcore.feishu.cn/mindnotes/bmncnzpUmXNQruVGOwRwisHyxoh">讲稿</a></p>
+</blockquote>
+      </article>
+    </section>
+
+    
+
+    
 
     
   </div>
-</header>
-
-
-<div class="ui container">
-  <article class="ui segment dream-categories-section">
-    <h2 class="ui header">所有分类<span class="ui grey sub header">0 分类</span>
-    </h2>
-
-    
-  </article>
 </div>
 
 
@@ -312,7 +366,31 @@
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 
-     
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0" integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0=" crossorigin="anonymous"></script>
+<script>
+  format()
+
+  function format() {
+    $('span[data-format="luxon"]').each(function () {
+      var date = $(this).text()
+
+      $(this).text(luxon.DateTime.fromISO(date, { locale: "zh" }).toFormat("yyyy年MM月dd日"))
+    })
+  }
+</script>
+
+
+
+<script src="/js/scrollToTop.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js" integrity="sha256-uacRffSSMP9qpvNWhVmYLykBv9YKMA1d/VSIN1AmfyQ=" crossorigin="anonymous"></script>
+<script src="/js/post.js" defer></script>
+
 
     
 

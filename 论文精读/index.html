@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>所有分类 | hardcore&#39;s Blog</title>
+    <title> | hardcore&#39;s Blog</title>
 
     
 
@@ -17,13 +17,15 @@
 
 <meta name="generator" content="Hugo 0.96.0" />
 
-<link rel="canonical" href="https://hardcore-os.github.io/categories/" />
+<link rel="canonical" href="https://hardcore-os.github.io/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/" />
 
 
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="hardcore 官网主页" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hardcore-os.github.io/categories/" /><meta property="og:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/>
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hardcore-os.github.io/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/" /><meta property="og:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/><meta property="article:section" content="" />
+
+
 
 
 
@@ -31,8 +33,8 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://hardcore-os.github.io/img/%E8%83%8C%E6%99%AF.jpeg"/>
 
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="hardcore 官网主页"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content=""/>
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" integrity="sha256-UXesixbeLkB/UYxVTzuj/gg3+LMzgwAmg3zD+C4ZASQ=" crossorigin="anonymous">
@@ -82,7 +84,13 @@
 </style>
 
 
-     
+    
+
+
+
+
+
+
 
     
     <link rel="stylesheet" href="/css/custom.css" />
@@ -116,40 +124,68 @@
         <section class="front">
           <div class="dream-max-width">
             
-
-<header class="ui basic very padded segment dream-header">
+<div class="ui relaxed centered grid dream-grid dream-grid-single">
   
-  <div class="ui small circular image">
-    <img src="/img/%e5%a4%b4%e5%83%8f.jpeg" alt="avatar" />
-  </div>
+  
+  
   
 
-  <div class="content">
-    <h1 class="ui medium header">hardcore的官网<span class="sub header">还原卓越工程师的思考细节</span>
-    </h1>
+  
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    <section class="ui segment">
+      <header>
+        <h1 class="ui large header"><span class="sub header">
+            <span class="left">
+              @
+              
+                hardcore
+              
 
-    <article class="ui horizontal list">
-      
-      <a class="item" href="/categories">
-        <i class="th list icon" title="所有分类"></i>
-      </a>
-      <a class="item" href="/tags">
-        <i class="tags icon" title="所有标签"></i>
-      </a>
-    </article>
+              | 
+                  <span data-format="luxon">0001-01-01T00:00:00Z</span>
+                
+
+              | 0 分钟阅读
+
+              
+              | 更新于
+                
+                  <span data-format="luxon">0001-01-01T00:00:00Z</span>
+                
+              
+            </span>
+
+            
+            <span class="dream-share">
+  <a href="#" class="save-as-image" title="保存为图片" onclick="savePostAsImg()">
+    <i class="save icon"></i>
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=&url=https%3a%2f%2fhardcore-os.github.io%2f%25E8%25AE%25BA%25E6%2596%2587%25E7%25B2%25BE%25E8%25AF%25BB%2f" title="Twitter">
+    <i class="twitter icon"></i>
+  </a>
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fhardcore-os.github.io%2f%25E8%25AE%25BA%25E6%2596%2587%25E7%25B2%25BE%25E8%25AF%25BB%2f" title="Facebook">
+    <i class="facebook icon"></i>
+  </a>
+</span>
+
+            
+          </span>
+        </h1>
+      </header>
+
+      <article class="main">
+        
+
+        
+      </article>
+    </section>
+
+    
+
+    
 
     
   </div>
-</header>
-
-
-<div class="ui container">
-  <article class="ui segment dream-categories-section">
-    <h2 class="ui header">所有分类<span class="ui grey sub header">0 分类</span>
-    </h2>
-
-    
-  </article>
 </div>
 
 
@@ -312,7 +348,31 @@
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 
-     
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0" integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0=" crossorigin="anonymous"></script>
+<script>
+  format()
+
+  function format() {
+    $('span[data-format="luxon"]').each(function () {
+      var date = $(this).text()
+
+      $(this).text(luxon.DateTime.fromISO(date, { locale: "zh" }).toFormat("yyyy年MM月dd日"))
+    })
+  }
+</script>
+
+
+
+<script src="/js/scrollToTop.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js" integrity="sha256-uacRffSSMP9qpvNWhVmYLykBv9YKMA1d/VSIN1AmfyQ=" crossorigin="anonymous"></script>
+<script src="/js/post.js" defer></script>
+
 
     
 
